@@ -1,0 +1,19 @@
+.header{
+    position: fixed;
+    background-color: orange;
+    height: 96px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.complete-bar{
+    background-color: yellow;
+    height: 15px;
+}
+.bar-scrolled{
+    background-color: red;
+    height: 15px;
+}
+
+.contents{
+    padding-top: 100px;
+}

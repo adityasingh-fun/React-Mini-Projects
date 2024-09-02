@@ -10,6 +10,7 @@ import ColorGenerator from './components/ColorGenerator/ColorGenerator';
 import StarRating from './components/StarRating/StarRating';
 import ImageSlider from './components/ImageSlider/ImageSlider';
 import LoadMoreImage from './components/LoadMoreImage/LoadMoreImage';
+import ScrollIndicator from './components/ScrollIndicator/ScrollIndicator';
 
 function App() {
   return (
@@ -43,7 +44,10 @@ function App() {
       {/* <ImageSlider url={'https://dummyjson.com/products'} /> */}
 
       {/* Load More Images */}
-      <LoadMoreImage/>
+      {/* <LoadMoreImage/> */}
+
+      {/* Scroll Indicator */}
+      <ScrollIndicator url={'https://dummyjson.com/products'} />
       
     </div>
   );
