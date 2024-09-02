@@ -9,6 +9,7 @@ import Accordion from './components/Accordion/Accordion';
 import ColorGenerator from './components/ColorGenerator/ColorGenerator';
 import StarRating from './components/StarRating/StarRating';
 import ImageSlider from './components/ImageSlider/ImageSlider';
+import LoadMoreImage from './components/LoadMoreImage/LoadMoreImage';
 
 function App() {
   return (
@@ -39,7 +40,10 @@ function App() {
       {/* <StarRating/> */}
 
       {/* Image Slider */}
-      <ImageSlider url={'https://dummyjson.com/products'} />
+      {/* <ImageSlider url={'https://dummyjson.com/products'} /> */}
+
+      {/* Load More Images */}
+      <LoadMoreImage/>
       
     </div>
   );
