@@ -7,6 +7,7 @@ import ScrollToTopAndBottom from './components/ScrollToTopAndBottom/ScrollToTopA
 import ScrollToParticularSection from './components/ScrollToParticularSection/ScrollToParticularSection';
 import Accordion from './components/Accordion/Accordion';
 import ColorGenerator from './components/ColorGenerator/ColorGenerator';
+import StarRating from './components/StarRating/StarRating';
 
 function App() {
   return (
@@ -31,7 +32,10 @@ function App() {
       {/* <Accordion/> */}
 
       {/* Random Color Generator */}
-      <ColorGenerator/>
+      {/* <ColorGenerator/> */}
+
+      {/* Star rating */}
+      <StarRating/>
       
     </div>
   );
