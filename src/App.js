@@ -6,6 +6,7 @@ import UseWindowResize from './components/UseWindowResize/UseWindowResize';
 import ScrollToTopAndBottom from './components/ScrollToTopAndBottom/ScrollToTopAndBottom';
 import ScrollToParticularSection from './components/ScrollToParticularSection/ScrollToParticularSection';
 import Accordion from './components/Accordion/Accordion';
+import ColorGenerator from './components/ColorGenerator/ColorGenerator';
 
 function App() {
   return (
@@ -27,7 +28,10 @@ function App() {
       {/* <ScrollToParticularSection/> */}
 
       {/* Accordion  */}
-      <Accordion/>
+      {/* <Accordion/> */}
+
+      {/* Random Color Generator */}
+      <ColorGenerator/>
       
     </div>
   );
