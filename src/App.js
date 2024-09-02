@@ -5,6 +5,7 @@ import CallingOnClick from './components/UseOnClickOutside/CallingOnClick';
 import UseWindowResize from './components/UseWindowResize/UseWindowResize';
 import ScrollToTopAndBottom from './components/ScrollToTopAndBottom/ScrollToTopAndBottom';
 import ScrollToParticularSection from './components/ScrollToParticularSection/ScrollToParticularSection';
+import Accordion from './components/Accordion/Accordion';
 
 function App() {
   return (
@@ -23,7 +24,10 @@ function App() {
       {/* <ScrollToTopAndBottom/> */}
 
       {/* Hook to scroll to a particular section */}
-      <ScrollToParticularSection/>
+      {/* <ScrollToParticularSection/> */}
+
+      {/* Accordion  */}
+      <Accordion/>
       
     </div>
   );

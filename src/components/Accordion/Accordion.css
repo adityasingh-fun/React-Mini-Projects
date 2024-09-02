@@ -1,0 +1,14 @@
+.element{
+    background-color: brown;
+    padding: 10px 20px;
+    margin: 20px 30px;
+}
+
+button{
+    background-color: brown;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
