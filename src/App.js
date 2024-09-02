@@ -8,6 +8,7 @@ import ScrollToParticularSection from './components/ScrollToParticularSection/Sc
 import Accordion from './components/Accordion/Accordion';
 import ColorGenerator from './components/ColorGenerator/ColorGenerator';
 import StarRating from './components/StarRating/StarRating';
+import ImageSlider from './components/ImageSlider/ImageSlider';
 
 function App() {
   return (
@@ -35,7 +36,10 @@ function App() {
       {/* <ColorGenerator/> */}
 
       {/* Star rating */}
-      <StarRating/>
+      {/* <StarRating/> */}
+
+      {/* Image Slider */}
+      <ImageSlider url={'https://dummyjson.com/products'} />
       
     </div>
   );
